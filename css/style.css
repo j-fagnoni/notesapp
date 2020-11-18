@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('dark_mode.css');
+@import url('light_mode.css');
+@import url('navbar.css');
+@import url('notes.css');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 430px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .note {
+    height: 280px;
+    width: 300px;
+  }
+
+  .notes-container {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }  
+}

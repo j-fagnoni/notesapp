@@ -1,0 +1,30 @@
+.navbar {
+  height: 4rem;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add {
+  height: 65%;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  color: white;
+  background: rgb(130, 130, 226);
+  font-weight: 900;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.light {
+  border: none;
+  background: none;
+  font-weight: 900;
+  cursor: pointer;
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+}

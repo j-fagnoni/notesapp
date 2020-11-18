@@ -1,0 +1,48 @@
+.notes-container {
+  min-height: calc(100vh - 4rem);
+  width: 100%;
+  background-attachment: fixed;
+  background-size: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.bar {
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgb(112, 112, 196);
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.bar button {
+  color: white;
+  background: none;
+  margin-right: 1rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.note {
+  height: 400px;
+  width: 400px;
+  border-radius: 6px;
+  margin: 1rem 2rem;
+}
+
+.content {
+  border: none;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 4%;
+  width: 100%;
+  height: 90%;
+  resize: none;
+  font-family: 'Roboto', sans-serif;
+}
